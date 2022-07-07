@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>독도고사</title>
+
+    <!--독도고사 폰트링크-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=East+Sea+Dokdo&display=swap" rel="stylesheet">
+    <!--안내 및 풀기-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+KR:wght@400;700&display=swap" rel="stylesheet">
+
+
+    <style>
+        .submit {
+            font-family: 'IBM Plex Sans KR', sans-serif;
+            font: 700;
+            background-color: #0000FF;
+            color: #FFFFFF;
+            border-radius: 10vw;
+            border: 0px;
+            padding: 0.7vw 2vw 0.7vw 2vw;
+        }
+
+        body {
+            margin: 10vw 7.5vw 4vh 4vh;
+        }
+
+        .dokdo {
+            font-family: 'East Sea Dokdo', cursive;
+            font-size: 17vw;
+        }
+        /*독도고사*/
+        .bam1 {
+            font-family: 'IBM Plex Sans KR', sans-serif;
+            font-size: 2.3vw;
+            padding: 0 0 12vw 0;
+            font: 700;
+        }
+        /* 소제목*/
+        .bam2 {
+            font-family: 'IBM Plex Sans KR', sans-serif;
+            font-size: 2.7vw;
+            font: 700;
+        }
+        /*문제제목*/
+        .all {
+            font-family: 'IBM Plex Sans KR', sans-serif;
+            font: 400;
+        }
+        /*본문*/
+    </style>
+
+</head>
+<body>
+    <center>
+        <div>
+            <h class="dokdo">독도고사</h>
+        </div>
+        <div class="bam1">
+            <h>
+                당신은 독도에 대해 얼마나 알고 있나요? <br />
+                당신의 상식을 점검해보세요!
+            </h>
+        </div>
+
+        <!--문제 1-->
+
+        <div class="q" style="max-width:100%; height:auto;">
+            <p class="bam2">문제 1.</p>
+            <p class="all">000은 조선시대 일본으로 넘어가 <br />독도의 소유권을 주장했다. 000은?</p>
+            <!--answo-->
+            <form style="border:hidden;" method="get" action="get_result.php">
+                <input autocomplete="off" type="text" name="leedragonlucky" size="23" style="font-family: 'IBM Plex Sans KR', sans-serif; font:700;" placeholder="입력해주세요" maxlength="3">
+                <input type="submit" value="완료" class="submit" />
+            </form>
+        </div>
+
+        <br /><br />
+
+        <!--문제 2-->
+        <div class="q" style="max-width:100%; height:auto;">
+            <p class="bam2">문제 2.</p>
+            <p class="all">독도는 국제법상 섬이다? ( OX퀴즈 )</p>
+            <!--answo-->
+            <form style="border:hidden;" method="get" action="get_result.php">
+                <input autocomplete="off" type="radio" name="amcho" size="23" style="font-family: 'IBM Plex Sans KR', sans-serif; font:700;">0
+                <input autocomplete="off" type="radio" name="amcho" size="23" style="font-family: 'IBM Plex Sans KR', sans-serif; font:700;">X
+                <br /><br /><input type="submit" value="완료" class="submit" />
+            </form>
+        </div>
+
+        <br /><br />
+
+        <!--문제 3-->
+        <div class="q" style="max-width:100%; height:auto;">
+            <p class="bam2">문제 3.</p>
+            <p class="all"> 독도는 수많은 천연자원을 품고 있다. <br /> 그 중 천연가스 에너지원으로 각광받고 있는 것은?</p>
+            <!--answo-->
+            <form style="border:hidden;" method="get" action="get_result.php">
+                <input autocomplete="off" type="radio" name="ch" size="23" style="font-family: 'IBM Plex Sans KR', sans-serif; font:700;">하이디라이트<br />
+                <input autocomplete="off" type="radio" name="ch" size="23" style="font-family: 'IBM Plex Sans KR', sans-serif; font:700;">헤이드라이드<br />
+                <input autocomplete="off" type="radio" name="ch" size="23" style="font-family: 'IBM Plex Sans KR', sans-serif; font:700;">하이드레이트<br />
+                <input autocomplete="off" type="radio" name="ch" size="23" style="font-family: 'IBM Plex Sans KR', sans-serif; font:700;">하이브레이트<br />
+                <input autocomplete="off" type="radio" name="ch" size="23" style="font-family: 'IBM Plex Sans KR', sans-serif; font:700;">하이드라이트<br /><br />
+                &nbsp;<input type="submit" value="완료" class="submit" />
+            </form>
+        </div>
+
+        <br /><br />
+
+        <!--문제 4-->
+        <div class="q" style="max-width:100%; height:auto;">
+            <p class="bam2">문제 4.</p>
+            <p class="all"> 과거 독도에 살았던 다음 동물의 이름은?</p>
+            <!--answo-->
+            <img src="https://img.khan.co.kr/news/2020/06/24/l_2020062501003024100239271.webp" style="max-width:60%; height:auto;" />
+            <form style="border:hidden;" method="get" action="get_result.php">
+                <br />
+                <input autocomplete="off" type="text" name="gangchi" size="23" style="font-family: 'IBM Plex Sans KR', sans-serif; font:700;" placeholder="입력해주세요" maxlength="3">
+                <input type="submit" value="완료" class="submit" />
+            </form>
+        </div>
+
+        <br /><br />
+
+        <!--문제 5-->
+        <div class="q" style="max-width:100%; height:auto;">
+            <p class="bam2">문제 5.</p>
+            <p class="all"> 독도에는 사람이 산다?( OX퀴즈 )</p>
+            <!--answo-->
+            <form style="border:hidden;" method="get" action="get_result.php">
+                <input autocomplete="off" type="radio" name="live" size="23" style="font-family: 'IBM Plex Sans KR', sans-serif; font:700;">0
+                <input autocomplete="off" type="radio" name="live" size="23" style="font-family: 'IBM Plex Sans KR', sans-serif; font:700;">X
+                &nbsp;<input type="submit" value="완료" class="submit" />
+            </form>
+        </div>
+
+        <br /><br />
+
+        <!--문제 6-->
+        <div class="q" style="max-width:100%; height:auto;">
+            <p class="bam2">문제 6.</p>
+            <p class="all"> 독도는 우리 영토인 000에서 날씨가<br />적당하면 육안으로 관측할 수 있다. 000는?</p>
+            <!--answo-->
+            <form style="border:hidden;" method="get" action="get_result.php">
+                <br />
+                <input autocomplete="off" type="text" name="ulng" size="23" style="font-family: 'IBM Plex Sans KR', sans-serif; font:700;" placeholder="입력해주세요" maxlength="3">
+                <input type="submit" value="완료" class="submit" />
+            </form>
+        </div>
+
+        <br /><br /><br />
+        <div class="submit" style="max-width:30%; height:auto;">
+            <a href="get_result.php"> <h style="font-family: 'IBM Plex Sans KR', sans-serif; font: 700; color:aliceblue;"> 점수 확인하러 가기 </h></a>
+        </div>
+
+
+
+        <div class="all" style="margin:15vw 0 0 0;">
+            <h style="font-size:2.7vw; font:800; color:#0000FF;"> <<독도익힘책>>독도에 대한 더 많은 정보를 알아 보세요!</h>
+            <a href=" https://dokdoeekhimcheck.netlify.app/" target="_blank">
+                <!--손수민-->
+                <div style="margin: 2.4vw 0 0 0;">
+                    <img src="https://i.ibb.co/nbFXQXp/image.png" style="max-width: 60%; height: auto;" alt="이미지가 로딩 중입니다" border="0">
+                </div>
+            </a>
+        </div>
+        <div class="all" style="margin:10vw 0 0 0;">
+            <h style="font-size:2.7vw; font:800; color:#0000FF;">독도 공식 인스타그램도 방문할 수 있어요!</h><br />
+            <a href="https://www.bing.com/search?q=k%EB%8F%85%EB%8F%84+%EC%9D%B8%EC%8A%A4%ED%83%80&qs=n&form=QBRE&sp=-1&pq=%EB%8F%85%EB%8F%84+%EC%9D%B8%EC%8A%A4%ED%83%80&sc=3-6&sk=&cvid=5F50753E53F8449687F88E0FAE2A3D52&ghsh=0&ghacc=0" target="_blank">
+                <!--독도 인스타-->
+                <div style="margin: 2.4vw 0 15vw 0;">
+                    <img src="https://ifh.cc/g/JccBRD.png" style="max-width: 60%; height: auto;" alt="이미지가 로딩 중입니다" border="0">
+                </div>
+            </a>
+        </div>
+
+        <div class="all"><h>경북여자고등학교 1-3 독도이해캠페인<br />@김정애 @손수민 @송이레 @최은아</h></div>
+    </center>
+</body>
+</html>
